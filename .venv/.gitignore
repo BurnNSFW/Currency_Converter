@@ -1,0 +1,33 @@
+
+---
+
+## Что нужно добавить в `.gitignore`
+
+```gitignore
+# Секретные данные
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Локальные данные
+conversion_history.json
+*.log
+
+# Файлы ОС
+.DS_Store
+Thumbs.db
